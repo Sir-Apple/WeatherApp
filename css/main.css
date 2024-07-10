@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #081215;
+}
+
+.card{
+    width: 100%;
+    max-width: 600px;
+    border-style: solid;
+    border-color: #50C878;
+    background-color: rgba(0, 145, 0, 0.1);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 40px 35px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(0, 145, 0, 0.1),
+        rgba(0, 145, 0, 0.1) 3px,
+        transparent 3px,
+        transparent 9px
+    );
+    background-size: 9px 9px;
+    animation: pan-overlay 22s infinite linear;
+}
+
+@keyframes pan-overlay {
+    from{
+        background-position: 0% 0%;
+    }
+    to{
+        background-position: 0% -100%;
+    }
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border-style: solid;
+    border-color: #50C878;
+    outline: 0;
+    background: rgba(0, 135, 0, 0.35);
+    color: ghostwhite;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.search button{
+    border-style: solid;
+    border-color: #50C878;
+    outline: 0;
+    color: ghostwhite;
+    background: rgba(0, 135, 0, 0.35);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 25px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 85px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.weather h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 22px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translate(-2px, 2px);
+        opacity: 0.8;
+    }
+    40% {
+        transform: translate(2px, -2px);
+        opacity: 0.6;
+    }
+    60% {
+        transform: translate(-2px, 2px);
+        opacity: 0.8;
+    }
+    80% {
+        transform: translate(2px, -2px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.glitch {
+    animation: glitch 0.5s ease-in-out;
+}
+

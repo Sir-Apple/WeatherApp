@@ -1,0 +1,9 @@
+API: https://openweathermap.org/api
+
+Weather icons: https://www.dovora.com/resources/weather-icons/
+
+Search icon: https://pngtree.com/so/search-icon
+
+Wind icon: https://www.cleanpng.com/png-computer-icons-wind-symbol-wind-1187669/
+
+Humidity icon: https://www.cleanpng.com/png-humidity-symbol-computer-icons-temperature-measure-1307421/
