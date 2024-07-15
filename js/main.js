@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (storedUnitPreference !== null) {
         isMetric = (storedUnitPreference === 'true');
     } else {
-        isMetric = true; // default to metric
+        isMetric = true;
     }
-    unitToggle.checked = !isMetric; // Update toggle switch based on preference
+    unitToggle.checked = !isMetric; 
 });
