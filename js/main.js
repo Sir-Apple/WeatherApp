@@ -124,6 +124,12 @@ searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
 
+searchBox.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        checkWeather(searchBox.value);
+    }
+});
+
 unitToggle.addEventListener("change", () => {
     isMetric = !isMetric;
     if (searchBox.value) {
