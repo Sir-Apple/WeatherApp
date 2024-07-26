@@ -1,5 +1,7 @@
 # WeatherApp
 
+![AppScreenshot](https://github.com/user-attachments/assets/dedb7c27-5748-40a6-bc35-2204e167c91f)
+
 ### Description
 
 This Weather App is made with HTML, CSS and Javascript with the purpose of displaying temperature, weather status, humidity and wind speed in different cities and countries.
