@@ -1,6 +1,8 @@
 # WeatherApp
 
-![AppScreenshot](https://github.com/user-attachments/assets/dedb7c27-5748-40a6-bc35-2204e167c91f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dedb7c27-5748-40a6-bc35-2204e167c91f" alt="AppScreenshot" width="280" height="280">
+</p>
 
 ### Description
 
