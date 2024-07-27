@@ -1,4 +1,3 @@
-// const {api} = require('./config');
 const apiKey = "236e47c223de8587a14ea29fa3551798";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
