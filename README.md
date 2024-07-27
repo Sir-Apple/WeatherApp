@@ -1,7 +1,7 @@
 # WeatherApp
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/10cedc66-8204-44b8-aa9f-ead22d809370" alt="weatherappdemo" width="450" height="450">
+  <img src="https://github.com/user-attachments/assets/10cedc66-8204-44b8-aa9f-ead22d809370" alt="weatherappdemo" width="420" height="450">
 </p>
 
 ### Description
