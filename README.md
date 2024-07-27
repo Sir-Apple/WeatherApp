@@ -16,7 +16,7 @@ It is shown when the user toggles the button box on the middle of the display ca
 
 ### Downloading and Testing
 
-It is pretty simple to download this App:
+It is pretty simple to download this Weather App:
 1. Download the zip file
 2. Extract the zip file
 3. Find the index.html file and open it
