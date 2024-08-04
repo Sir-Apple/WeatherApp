@@ -19,4 +19,6 @@ It is shown when the user toggles the button box on the middle of the display ca
 It is pretty simple to download this Weather App:
 1. Download the zip file
 2. Extract the zip file
-3. Find the index.html file and open it
+3. Download Simple Web Server: https://simplewebserver.org/docs/wsc.html, then set choose the folder path where the zip file was extracted, then select the appropriate port (in my case is 8090)
+4. Get yourself an API key from OpenWeatherAPI: https://openweathermap.org/api, then find the "main.js" file in the "js" folder, then insert your API Key inside the "const apiKey"
+5. Run the server (localhost) to test it out
