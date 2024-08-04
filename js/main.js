@@ -107,7 +107,7 @@ function updateWeatherDisplay(data) {
 
 async function checkWeather(city) {
     const units = isMetric ? 'metric' : 'imperial';
-    const {apiKey} = await fetch("/data/data.json").then(d => d.json());
+    const {apiKey} = await fetch("/setup/settings.json").then(d => d.json());
     const response = await fetch(apiUrl + city + `&units=${units}&appid=${apiKey}`);
 
     if (response.status == 404) {
