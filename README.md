@@ -20,5 +20,5 @@ It is pretty simple to download this Weather App:
 1. Download the zip file
 2. Extract the zip file
 3. Download Simple Web Server: https://simplewebserver.org/docs/wsc.html, then set choose the folder path where the zip file was extracted, then select the appropriate port (in my case is 8090)
-4. Get yourself an API key from OpenWeatherAPI: https://openweathermap.org/api, then find the "main.js" file in the "js" folder, then insert your API Key inside the "const apiKey"
+4. Get yourself an API key from OpenWeatherAPI: https://openweathermap.org/api, then find the "main.js" file in the "js" folder, in the first line, replace your API Key with "your_api_key_here" inside the "const apiKey"
 5. Run the server (localhost) to test it out
