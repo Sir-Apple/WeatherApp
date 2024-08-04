@@ -1,4 +1,3 @@
-const apiKey = "236e47c223de8587a14ea29fa3551798";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
@@ -108,6 +107,7 @@ function updateWeatherDisplay(data) {
 
 async function checkWeather(city) {
     const units = isMetric ? 'metric' : 'imperial';
+    const {apiKey} = await fetch("/data/data.json").then(d => d.json());
     const response = await fetch(apiUrl + city + `&units=${units}&appid=${apiKey}`);
 
     if (response.status == 404) {

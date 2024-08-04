@@ -5,6 +5,7 @@ node_modules/
 # Ignore API keys and other sensitive information
 .env
 config.js
+data.json
 
 # Ignore build files
 dist/
