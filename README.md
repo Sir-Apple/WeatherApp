@@ -4,6 +4,11 @@
   <img src="https://github.com/user-attachments/assets/10cedc66-8204-44b8-aa9f-ead22d809370" alt="weatherappdemo" width="360" height="400">
 </p>
 
+Technology used:
+- HTML
+- JavaScript
+- CSS
+
 ### Description
 
 This Weather App is made with HTML, CSS and Javascript with the purpose of displaying temperature, weather status, humidity and wind speed in different cities and countries.
