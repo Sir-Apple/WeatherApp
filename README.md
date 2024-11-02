@@ -9,7 +9,7 @@ Technology used:
 - JavaScript
 - CSS
 
-### Description
+## Description
 
 This Weather App is made with HTML, CSS and Javascript with the purpose of displaying temperature, weather status, humidity and wind speed in different cities and countries.
 
@@ -19,7 +19,7 @@ Therefore, it also has the JavaScript text scrambling effect when switching the 
 The App displays both on Celsius and Fahrenheit degree in the temperature as well as km/h and mph in the wind speed. 
 It is shown when the user toggles the button box on the middle of the display card.
 
-### Downloading and Testing
+## Downloading and Testing
 
 It is pretty simple to download this Weather App:
 1. Download the zip file
